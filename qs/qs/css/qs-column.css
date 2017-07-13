@@ -1,0 +1,99 @@
+/* Evenly spaced columns */
+
+.qs-row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.qs-row:before,
+.qs-row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.qs-row > .qs-column {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.qs-row[data-qs-reverse = true] > .qs-column {
+  float: right;
+}
+
+.qs-row > .qs-column:first-child:nth-last-child(1) {
+  width: 100%;
+  float: none;
+}
+
+.qs-row > .qs-column:first-child:nth-last-child(2),
+.qs-row > .qs-column:first-child:nth-last-child(2) ~ .qs-column {
+  width: 50%;
+}
+
+.qs-row > .qs-column:first-child:nth-last-child(3),
+.qs-row > .qs-column:first-child:nth-last-child(3) ~ .qs-column {
+  width: calc(100% / 3);
+}
+
+.qs-row > .qs-column:first-child:nth-last-child(4),
+.qs-row > .qs-column:first-child:nth-last-child(4) ~ .qs-column {
+  width: 25%;
+}
+
+.qs-row > .qs-column:first-child:nth-last-child(5),
+.qs-row > .qs-column:first-child:nth-last-child(5) ~ .qs-column {
+  width: 20%;
+}
+
+.qs-row > .qs-column:first-child:nth-last-child(6),
+.qs-row > .qs-column:first-child:nth-last-child(6) ~ .qs-column {
+  width: calc(100% / 6);
+}
+
+.qs-row > .qs-column:first-child:nth-last-child(7),
+.qs-row > .qs-column:first-child:nth-last-child(7) ~ .qs-column {
+  width: calc(100% / 7);
+}
+
+.qs-row > .qs-column:first-child:nth-last-child(8),
+.qs-row > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+  width: 12.5%;
+}
+
+/* With primary */
+
+.qs-row[data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(2) {
+  width: 75%;
+}
+
+.qs-row[data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column {
+  width: 25%;
+}
+
+.qs-row[data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.qs-row[data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column {
+  width: 20%;
+}
+
+.qs-row[data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2) {
+  margin-left: -80%;
+}
+
+.qs-row[data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) {
+  width: 60%;
+  margin-left: auto;
+  margin-right: 20%;
+}
+
+.qs-row[data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2) {
+  margin-left: auto;
+  margin-right: -80%
+}

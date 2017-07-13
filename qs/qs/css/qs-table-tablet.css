@@ -1,0 +1,260 @@
+/* XL */
+.qs-table[data-qs-tabletView = "xl"] thead {
+  display: none;
+}
+
+.qs-table[data-qs-tabletView = "xl"] caption {
+  display: block;
+}
+
+.qs-table[data-qs-tabletView = "xl"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+  padding: .75em 4.5em .75em 0;
+}
+
+.qs-table[data-qs-tabletView = "xl"],
+.qs-table[data-qs-tabletView = "xl"] tbody,
+.qs-table[data-qs-tabletView = "xl"] tbody tr,
+.qs-table[data-qs-tabletView = "xl"] tfoot,
+.qs-table[data-qs-tabletView = "xl"] tfoot tr,
+.qs-table[data-qs-tabletView = "xl"] tfoot tr td {
+  display: block;
+}
+
+.qs-table[data-qs-tabletView = "xl"] tbody tr {
+  border: 1px solid #000;
+}
+
+.qs-table[data-qs-tabletView = "xl"] tbody tr td {
+  margin: .5em .5em .5em calc(100% / 3);
+  padding: 0;
+  display: block;
+  border: none;
+}
+
+.qs-table[data-qs-tabletView = "xl"] tbody tr td:after,
+.qs-table[data-qs-tabletView = "xl"] tbody tr:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.qs-table[data-qs-tabletView = "xl"] tbody tr td .qs-table-label {
+  display: block;
+  width: 48%;
+  margin: 0 2% .5em -50%;
+  float: left;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* L */
+@media (max-width: 1200px) {
+
+  .qs-table[data-qs-tabletView = "l"] thead {
+    display: none;
+  }
+
+  .qs-table[data-qs-tabletView = "l"] caption {
+    display: block;
+  }
+
+  .qs-table[data-qs-tabletView = "l"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+    padding: .75em 4.5em .75em 0;
+  }
+
+  .qs-table[data-qs-tabletView = "l"],
+  .qs-table[data-qs-tabletView = "l"] tbody,
+  .qs-table[data-qs-tabletView = "l"] tbody tr,
+  .qs-table[data-qs-tabletView = "l"] tfoot,
+  .qs-table[data-qs-tabletView = "l"] tfoot tr,
+  .qs-table[data-qs-tabletView = "l"] tfoot tr td {
+    display: block;
+  }
+
+  .qs-table[data-qs-tabletView = "l"] tbody tr {
+    border: 1px solid #000;
+  }
+
+  .qs-table[data-qs-tabletView = "l"] tbody tr td {
+    margin: .5em .5em .5em calc(100% / 3);
+    padding: 0;
+    display: block;
+    border: none;
+  }
+
+  .qs-table[data-qs-tabletView = "l"] tbody tr td:after,
+  .qs-table[data-qs-tabletView = "l"] tbody tr:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .qs-table[data-qs-tabletView = "l"] tbody tr td .qs-table-label {
+    display: block;
+    width: 48%;
+    margin: 0 2% .5em -50%;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+  }
+
+}
+
+/* M */
+@media (max-width: 960px) {
+
+  .qs-table[data-qs-tabletView = "m"] thead {
+    display: none;
+  }
+
+  .qs-table[data-qs-tabletView = "m"] caption {
+    display: block;
+  }
+
+  .qs-table[data-qs-tabletView = "m"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+    padding: .75em 4.5em .75em 0;
+  }
+
+  .qs-table[data-qs-tabletView = "m"],
+  .qs-table[data-qs-tabletView = "m"] tbody,
+  .qs-table[data-qs-tabletView = "m"] tbody tr,
+  .qs-table[data-qs-tabletView = "m"] tfoot,
+  .qs-table[data-qs-tabletView = "m"] tfoot tr,
+  .qs-table[data-qs-tabletView = "m"] tfoot tr td {
+    display: block;
+  }
+
+  .qs-table[data-qs-tabletView = "m"] tbody tr {
+    border: 1px solid #000;
+  }
+
+  .qs-table[data-qs-tabletView = "m"] tbody tr td {
+    margin: .5em .5em .5em calc(100% / 3);
+    padding: 0;
+    display: block;
+    border: none;
+  }
+
+  .qs-table[data-qs-tabletView = "m"] tbody tr td:after,
+  .qs-table[data-qs-tabletView = "m"] tbody tr:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .qs-table[data-qs-tabletView = "m"] tbody tr td .qs-table-label {
+    display: block;
+    width: 48%;
+    margin: 0 2% .5em -50%;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+  }
+
+}
+
+/* S */
+@media (max-width: 720px) {
+
+  .qs-table[data-qs-tabletView = "s"] thead {
+    display: none;
+  }
+
+  .qs-table[data-qs-tabletView = "s"] caption {
+    display: block;
+  }
+
+  .qs-table[data-qs-tabletView = "s"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+    padding: .75em 4.5em .75em 0;
+  }
+
+  .qs-table[data-qs-tabletView = "s"],
+  .qs-table[data-qs-tabletView = "s"] tbody,
+  .qs-table[data-qs-tabletView = "s"] tr,
+  .qs-table[data-qs-tabletView = "s"] tfoot,
+  .qs-table[data-qs-tabletView = "s"] tfoot tr,
+  .qs-table[data-qs-tabletView = "s"] tfoot tr td {
+    display: block;
+  }
+
+  .qs-table[data-qs-tabletView = "s"] tbody tr {
+    border: 1px solid #000;
+  }
+
+  .qs-table[data-qs-tabletView = "s"] tbody tr td {
+    margin: .5em .5em .5em calc(100% / 3);
+    padding: 0;
+    display: block;
+    border: none;
+  }
+
+  .qs-table[data-qs-tabletView = "s"] tbody tr td:after,
+  .qs-table[data-qs-tabletView = "s"] tbody tr:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .qs-table[data-qs-tabletView = "s"] tbody tr td .qs-table-label {
+    display: block;
+    width: 48%;
+    margin: 0 2% .5em -50%;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+  }
+
+}
+
+/* XS */
+@media (max-width: 480px) {
+
+  .qs-table[data-qs-tabletView = "xs"] thead {
+    display: none;
+  }
+
+  .qs-table[data-qs-tabletView = "xs"] caption {
+    display: block;
+  }
+
+  .qs-table[data-qs-tabletView = "xs"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+    padding: .75em 4.5em .75em 0;
+  }
+
+  .qs-table[data-qs-tabletView = "xs"],
+  .qs-table[data-qs-tabletView = "xs"] tbody,
+  .qs-table[data-qs-tabletView = "xs"] tbody tr,
+  .qs-table[data-qs-tabletView = "xs"] tfoot,
+  .qs-table[data-qs-tabletView = "xs"] tfoot tr,
+  .qs-table[data-qs-tabletView = "xs"] tfoot tr td {
+    display: block;
+  }
+
+  .qs-table[data-qs-tabletView = "xs"] tbody tr {
+    border: 1px solid #000;
+  }
+
+  .qs-table[data-qs-tabletView = "xs"] tbody tr td {
+    margin: .5em .5em .5em calc(100% / 3);
+    padding: 0;
+    display: block;
+    border: none;
+  }
+
+  .qs-table[data-qs-tabletView = "xs"] tbody tr td:after,
+  .qs-table[data-qs-tabletView = "xs"] tbody tr:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .qs-table[data-qs-tabletView = "xs"] tbody tr td .qs-table-label {
+    display: block;
+    width: 48%;
+    margin: 0 2% .5em -50%;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+  }
+
+}

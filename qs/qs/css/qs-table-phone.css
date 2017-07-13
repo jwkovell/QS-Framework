@@ -1,0 +1,280 @@
+/* XL */
+.qs-table[data-qs-phoneView = "xl"] thead {
+  display: none;
+}
+
+.qs-table[data-qs-phoneView = "xl"] caption {
+  display: block;
+}
+
+.qs-table[data-qs-phoneView = "xl"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+  padding: .75em 4.5em .75em 0;
+}
+
+.qs-table[data-qs-phoneView = "xl"],
+.qs-table[data-qs-phoneView = "xl"] tbody,
+.qs-table[data-qs-phoneView = "xl"] tbody tr,
+.qs-table[data-qs-phoneView = "xl"] tfoot,
+.qs-table[data-qs-phoneView = "xl"] tfoot tr,
+.qs-table[data-qs-phoneView = "xl"] tfoot tr td {
+  display: block;
+}
+
+.qs-table[data-qs-phoneView = "xl"] tbody tr {
+  border: 1px solid #000;
+}
+
+.qs-table[data-qs-phoneView = "xl"] tbody tr td {
+  margin: 0;
+  padding: .25em .5em;
+  display: block;
+  border: none;
+}
+
+.qs-table[data-qs-phoneView = "xl"] tbody tr td:first-child {
+  padding-top: .5em;
+}
+
+.qs-table[data-qs-phoneView = "xl"] tbody tr td:last-child {
+  padding-bottom: .5em;
+}
+
+.qs-table[data-qs-phoneView = "xl"] tbody tr td:after,
+.qs-table[data-qs-phoneView = "xl"] tbody tr:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.qs-table[data-qs-phoneView = "xl"] tbody tr td .qs-table-label {
+  display: block;
+  font-weight: bold;
+}
+
+/* L */
+@media (max-width: 1200px) {
+
+  .qs-table[data-qs-phoneView = "l"] thead {
+    display: none;
+  }
+
+  .qs-table[data-qs-phoneView = "l"] caption {
+    display: block;
+  }
+
+  .qs-table[data-qs-phoneView = "l"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+    padding: .75em 4.5em .75em 0;
+  }
+
+  .qs-table[data-qs-phoneView = "l"],
+  .qs-table[data-qs-phoneView = "l"] tbody,
+  .qs-table[data-qs-phoneView = "l"] tbody tr,
+  .qs-table[data-qs-phoneView = "l"] tfoot,
+  .qs-table[data-qs-phoneView = "l"] tfoot tr,
+  .qs-table[data-qs-phoneView = "l"] tfoot tr td {
+    display: block;
+  }
+
+  .qs-table[data-qs-phoneView = "l"] tbody tr {
+    border: 1px solid #000;
+  }
+
+  .qs-table[data-qs-phoneView = "l"] tbody tr td {
+    margin: 0;
+    padding: .25em .5em;
+    display: block;
+    border: none;
+  }
+
+  .qs-table[data-qs-phoneView = "l"] tbody tr td:first-child {
+    padding-top: .5em;
+  }
+
+  .qs-table[data-qs-phoneView = "l"] tbody tr td:last-child {
+    padding-bottom: .5em;
+  }
+
+  .qs-table[data-qs-phoneView = "l"] tbody tr td:after,
+  .qs-table[data-qs-phoneView = "l"] tbody tr:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .qs-table[data-qs-phoneView = "l"] tbody tr td .qs-table-label {
+    display: block;
+    font-weight: bold;
+  }
+
+}
+
+/* M */
+@media (max-width: 960px) {
+
+  .qs-table[data-qs-phoneView = "m"] thead {
+    display: none;
+  }
+
+  .qs-table[data-qs-phoneView = "m"] caption {
+    display: block;
+  }
+
+  .qs-table[data-qs-phoneView = "m"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+    padding: .75em 4.5em .75em 0;
+  }
+
+  .qs-table[data-qs-phoneView = "m"],
+  .qs-table[data-qs-phoneView = "m"] tbody,
+  .qs-table[data-qs-phoneView = "m"] tbody tr,
+  .qs-table[data-qs-phoneView = "m"] tfoot,
+  .qs-table[data-qs-phoneView = "m"] tfoot tr,
+  .qs-table[data-qs-phoneView = "m"] tfoot tr td {
+    display: block;
+  }
+
+  .qs-table[data-qs-phoneView = "m"] tbody tr td {
+    margin: 0;
+    padding: .25em .5em;
+    display: block;
+    border: none;
+  }
+
+  .qs-table[data-qs-phoneView = "m"] tbody tr td:first-child {
+    padding-top: .5em;
+  }
+
+  .qs-table[data-qs-phoneView = "m"] tbody tr td:last-child {
+    padding-bottom: .5em;
+  }
+
+  .qs-table[data-qs-phoneView = "m"] tbody tr td:after,
+  .qs-table[data-qs-phoneView = "m"] tbody tr:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .qs-table[data-qs-phoneView = "m"] tbody tr td .qs-table-label {
+    display: block;
+    font-weight: bold;
+  }
+
+}
+
+/* S */
+@media (max-width: 720px) {
+
+  .qs-table[data-qs-phoneView = "s"] thead {
+    display: none;
+  }
+
+  .qs-table[data-qs-phoneView = "s"] caption {
+    display: block;
+  }
+
+  .qs-table[data-qs-phoneView = "s"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+    padding: .75em 4.5em .75em 0;
+  }
+
+  .qs-table[data-qs-phoneView = "s"],
+  .qs-table[data-qs-phoneView = "s"] tbody,
+  .qs-table[data-qs-phoneView = "s"] tbody tr,
+  .qs-table[data-qs-phoneView = "s"] tfoot,
+  .qs-table[data-qs-phoneView = "s"] tfoot tr,
+  .qs-table[data-qs-phoneView = "s"] tfoot tr td {
+    display: block;
+  }
+
+  .qs-table[data-qs-phoneView = "s"] tbody tr {
+    border: 1px solid #000;
+  }
+
+  .qs-table[data-qs-phoneView = "s"] tbody tr td {
+    margin: 0;
+    padding: .25em .5em;
+    display: block;
+    border: none;
+  }
+
+  .qs-table[data-qs-phoneView = "s"] tbody tr td:first-child {
+    padding-top: .5em;
+  }
+
+  .qs-table[data-qs-phoneView = "s"] tbody tr td:last-child {
+    padding-bottom: .5em;
+  }
+
+  .qs-table[data-qs-phoneView = "s"] tbody tr td:after,
+  .qs-table[data-qs-phoneView = "s"] tbody tr:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .qs-table[data-qs-phoneView = "s"] tbody tr td .qs-table-label {
+    display: block;
+    font-weight: bold;
+  }
+
+}
+
+/* XS */
+@media (max-width: 480px) {
+
+  .qs-table[data-qs-phoneView = "xs"] thead {
+    display: none;
+  }
+
+  .qs-table[data-qs-phoneView = "xs"] caption {
+    display: block;
+  }
+
+  .qs-table[data-qs-phoneView = "xs"][data-qs-hasCaption = "true"][data-qs-exportable = "true"] caption {
+    padding: .75em 4.5em .75em 0;
+  }
+
+  .qs-table[data-qs-phoneView = "xs"],
+  .qs-table[data-qs-phoneView = "xs"] tbody,
+  .qs-table[data-qs-phoneView = "xs"] tbody tr,
+  .qs-table[data-qs-phoneView = "xs"] tfoot,
+  .qs-table[data-qs-phoneView = "xs"] tfoot tr,
+  .qs-table[data-qs-phoneView = "xs"] tfoot tr td {
+    display: block;
+  }
+
+  .qs-table[data-qs-phoneView = "xs"] tbody tr {
+    border: 1px solid #000;
+  }
+
+  .qs-table[data-qs-phoneView = "xs"] tbody tr td {
+    margin: 0;
+    padding: .25em .5em;
+    display: block;
+    border: none;
+  }
+
+  .qs-table[data-qs-phoneView = "xs"] tbody tr td:first-child {
+    padding-top: .5em;
+  }
+
+  .qs-table[data-qs-phoneView = "xs"] tbody tr td:last-child {
+    padding-bottom: .5em;
+  }
+
+  .qs-table[data-qs-phoneView = "xs"] tbody tr td:after,
+  .qs-table[data-qs-phoneView = "xs"] tbody tr:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .qs-table[data-qs-phoneView = "xs"] tbody tr td .qs-table-label {
+    display: block;
+    font-weight: bold;
+    width: auto;
+    margin: 0;
+    float: none;
+    text-align: left;
+  }
+
+}

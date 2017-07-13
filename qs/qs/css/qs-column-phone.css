@@ -1,0 +1,213 @@
+/* XL */
+
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(2),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column,
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(3),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(4),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+.qs-row[data-qs-phoneView = "xl"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+.qs-row[data-qs-phoneView = "xl"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+.qs-row[data-qs-phoneView = "xl"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3),
+.qs-row[data-qs-phoneView = "xl"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+.qs-row[data-qs-phoneView = "xl"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+  width: 100%;
+  margin: 0;
+}
+
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(5),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(6),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column,
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(7),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(8),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+  width: 50%;
+}
+
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2n + 1),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+.qs-row[data-qs-phoneView = "xl"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+  clear: none;
+}
+
+/* L */
+@media (max-width: 1200px) {
+
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(2),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(4),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+  .qs-row[data-qs-phoneView = "l"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-phoneView = "l"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+  .qs-row[data-qs-phoneView = "l"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-phoneView = "l"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-phoneView = "l"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+    width: 100%;
+    margin: 0;
+  }
+
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(5),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(6),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(7),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(8),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+    width: 50%;
+  }
+
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+  .qs-row[data-qs-phoneView = "l"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+    clear: none;
+  }
+
+}
+
+/* M */
+@media (max-width: 960px) {
+
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(2),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(4),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+  .qs-row[data-qs-phoneView = "m"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-phoneView = "m"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+  .qs-row[data-qs-phoneView = "m"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-phoneView = "m"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-phoneView = "m"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+    width: 100%;
+    margin: 0;
+  }
+
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(5),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(6),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(7),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(8),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+    width: 50%;
+  }
+
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+  .qs-row[data-qs-phoneView = "m"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+    clear: none;
+  }
+
+}
+
+/* S */
+@media (max-width: 720px) {
+
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(2),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(4),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+  .qs-row[data-qs-phoneView = "s"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-phoneView = "s"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+  .qs-row[data-qs-phoneView = "s"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-phoneView = "s"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-phoneView = "s"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+    width: 100%;
+    margin: 0;
+  }
+
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(5),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(6),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(7),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(8),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+    width: 50%;
+  }
+
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+  .qs-row[data-qs-phoneView = "s"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+    clear: none;
+  }
+
+}
+
+/* XS */
+@media (max-width: 480px) {
+
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(2),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(4),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+  .qs-row[data-qs-phoneView = "xs"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-phoneView = "xs"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+  .qs-row[data-qs-phoneView = "xs"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-phoneView = "xs"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-phoneView = "xs"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+    width: 100%;
+    margin: 0;
+  }
+
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(5),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(6),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(7),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(8),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+    width: 50%;
+  }
+
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+    clear: none;
+  }
+
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(2n + 1),
+  .qs-row[data-qs-phoneView = "xs"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(2n + 1) {
+    clear: left;
+  }
+
+}

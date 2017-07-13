@@ -1,0 +1,39 @@
+body {
+  font-size: 100%;
+  background: #eee;
+  margin: 0;
+  font-family: Sans-Serif;
+}
+
+#wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#wrap:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.content {
+  border: 1px solid #000;
+}
+
+.content:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.example {
+  padding: 1em;
+  border-bottom: 1px solid #000;
+}
+
+.example:after {
+  display: table;
+  content: "";
+  clear: both;
+}

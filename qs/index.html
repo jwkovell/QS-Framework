@@ -1,0 +1,365 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>QR Layout</title>
+  <meta name="description" content="The HTML5 Herald">
+  <link rel="stylesheet" href="css/navigation.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="qs/css/qs-column.css" />
+  <link rel="stylesheet" href="qs/css/qs-column-tablet.css" />
+  <link rel="stylesheet" href="qs/css/qs-column-phone.css" />
+  <link rel="stylesheet" href="qs/css/qs-capsule.css" />
+  <link rel="stylesheet" href="qs/css/qs-table.css" />
+  <link rel="stylesheet" href="qs/css/qs-table-tablet.css" />
+  <link rel="stylesheet" href="qs/css/qs-table-phone.css" />
+  <script src="js/jquery/jquery-3.1.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="qs/js/qs-table.js"></script>
+</head>
+
+<body>
+
+  <div id="navigation">
+    <ul class="qs-row">
+      <li class="qs-column"><a href="#">Home</a></li>
+      <li class="qs-column"><a href="#">About</a>
+        <ul>
+          <li class="qs-column"><a href="#">Item</a></li>
+          <li class="qs-column"><a href="#">Item</a></li>
+          <li class="qs-column"><a href="#">Item</a></li>
+        </ul>
+      </li>
+      <li class="qs-column"><a href="#">Test</a></li>
+      <li class="qs-column"><a href="#">Test</a></li>
+      <li class="qs-column"><a href="#">Test</a></li>
+      <li class="qs-column"><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="wrap">
+    <div class="qs-row" data-qs-primary="true" data-qs-tabletView="s" data-qs-phoneView="xs">
+      <div class="qs-column">
+        <div class="qs-row" data-qs-phoneView="xs">
+          <div class="qs-column">
+
+            <div class="example">
+              <table class="qs-table" data-qs-tabletView="s" data-qs-phoneView="xs" data-qs-exportable="true">
+                <caption>Example Table Example Table Example Table Example Table</caption>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Color</th>
+                    <th>Age</th>
+                    <th>Book</th>
+                    <th>Food</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John Adams</td>
+                    <td>Blue</td>
+                    <td>52</td>
+                    <td>Dictionary</td>
+                    <td>Pie</td>
+                  </tr>
+                  <tr>
+                    <td>June Smith</td>
+                    <td>Green</td>
+                    <td>12</td>
+                    <td>Monster Party</td>
+                    <td>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                  </tr>
+                  <tr>
+                    <td>James Gorn</td>
+                    <td>Brown</td>
+                    <td>46</td>
+                    <td>Time in a Bottle</td>
+                    <td>Pizza</td>
+                  </tr>
+                  <tr>
+                    <td>Mark Lunn</td>
+                    <td>Orange</td>
+                    <td>34</td>
+                    <td>Dune</td>
+                    <td>Spice</td>
+                  </tr>
+                  <tr>
+                    <td>Fran Andrews</td>
+                    <td>Blue</td>
+                    <td>67</td>
+                    <td>Last Acre</td>
+                    <td>Peppermint</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="5">Footer</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+            <div class="example">
+              <ul class="qs-capsule">
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">A</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">B</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">C</a>
+                </li>
+              </ul>
+            </div>
+            <div class="example">
+              <ul class="qs-capsule">
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Export</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="pdf" href="#"></a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="xls" href="#"></a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="doc" href="#"></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="example">
+              <ul class="qs-capsule">
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Label</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">A</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">B</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">C</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Label</div>
+                  <a class="qs-capsule-label" href="#">D</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">E</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">F</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">G</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Label</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">H</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">I</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="pdf" href="#"></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="example">
+              <ul class="qs-capsule" data-qs-collapsed="true">
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Export</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="pdf" href="#"></a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="xls" href="#"></a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="doc" href="#"></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="qs-capsule" data-qs-collapsed="true" data-qs-position="right">
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Share</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="pdf" href="#"></a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="xls" href="#"></a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="doc" href="#"></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="example">
+              <ul class="qs-capsule" data-qs-vertical="true">
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">A</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">B</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">C</a>
+                </li>
+              </ul>
+            </div>
+            <div class="example">
+              <ul class="qs-capsule" data-qs-vertical="true">
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Export</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="pdf" href="#">PDF</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="xls" href="#">XLS</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="doc" href="#">DOC</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="example">
+              <ul class="qs-capsule" data-qs-vertical="true">
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Label</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">A</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">B</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">C</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Label</div>
+                  <a class="qs-capsule-label" href="#">D</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">E</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">F</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" href="#">G</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Label</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">H</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" href="#">I</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="pdf" href="#"></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="example">
+              <ul class="qs-capsule" data-qs-collapsed="true" data-qs-vertical="true">
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Export</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="pdf" href="#">PDF</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="xls" href="#">XLS</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="doc" href="#">DOC</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="qs-capsule" data-qs-collapsed="true" data-qs-vertical="true" data-qs-position="right">
+                <li class="qs-capsule-item">
+                  <div class="qs-capsule-label" href="#">Share</div>
+                  <ul class="qs-capsule">
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="pdf" href="#">PDF</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="xls" href="#">XLS</a>
+                    </li>
+                    <li class="qs-capsule-item">
+                      <a class="qs-capsule-label" data-qs-icon="doc" href="#">DOC</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="example">
+              <ul class="qs-capsule">
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" data-qs-icon="pdf" href="#">PDF</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" data-qs-icon="xls" href="#">XLS</a>
+                </li>
+                <li class="qs-capsule-item">
+                  <a class="qs-capsule-label" data-qs-icon="doc" href="#">DOC</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="qs-row" data-qs-phoneView="xs">
+          <div class="qs-column">M1</div>
+          <div class="qs-column">M2</div>
+          <div class="qs-column">M3</div>
+        </div>
+      </div>
+      <div class="qs-column">
+        Sidebar 1
+      </div>
+      <div class="qs-column">
+        Sidebar 2
+        <div class="qs-row" data-qs-phoneView="m">
+          <div class="qs-column">S2<br />1</div>
+          <div class="qs-column">S2<br />2</div>
+          <div class="qs-column">S2<br />3</div>
+          <div class="qs-column">S2<br />4</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

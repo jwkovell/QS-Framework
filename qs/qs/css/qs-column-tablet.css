@@ -1,0 +1,316 @@
+/* XL */
+
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(2),
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column  {
+  width: 100%;
+}
+
+.qs-row[data-qs-tabletView = "xl"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) {
+  width: 100%;
+}
+
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(3),
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(4),
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+.qs-row[data-qs-tabletView = "xl"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+.qs-row[data-qs-tabletView = "xl"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+.qs-row[data-qs-tabletView = "xl"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+.qs-row[data-qs-tabletView = "xl"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+  width: 50%;
+  margin: 0;
+}
+
+.qs-row[data-qs-tabletView = "xl"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) {
+  margin: 0;
+}
+
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+  clear: left;
+}
+
+.qs-row[data-qs-tabletView = "xl"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+  clear: none;
+}
+
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(5),
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(6),
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column {
+  width: calc(100% / 3);
+}
+
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1) {
+  clear: left;
+}
+
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(7),
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(8),
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+  width: 25%;
+}
+
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+.qs-row[data-qs-tabletView = "xl"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+  clear: left;
+}
+
+/* L */
+@media (max-width: 1200px) {
+
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(2),
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column  {
+    width: 100%;
+  }
+
+  .qs-row[data-qs-tabletView = "l"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) {
+    width: 100%;
+  }
+
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(4),
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+  .qs-row[data-qs-tabletView = "l"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-tabletView = "l"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+  .qs-row[data-qs-tabletView = "l"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-tabletView = "l"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+    width: 50%;
+    margin: 0;
+  }
+
+  .qs-row[data-qs-tabletView = "l"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) {
+    margin: 0;
+  }
+
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+    clear: left;
+  }
+
+  .qs-row[data-qs-tabletView = "l"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+    clear: none;
+  }
+
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(5),
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(6),
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column {
+    width: calc(100% / 3);
+  }
+
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1) {
+    clear: left;
+  }
+
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(7),
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(8),
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+    width: 25%;
+  }
+
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+  .qs-row[data-qs-tabletView = "l"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+    clear: left;
+  }
+
+}
+
+/* M */
+@media (max-width: 960px) {
+
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(2),
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column  {
+    width: 100%;
+  }
+
+  .qs-row[data-qs-tabletView = "m"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) {
+    width: 100%;
+  }
+
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(4),
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+  .qs-row[data-qs-tabletView = "m"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-tabletView = "m"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+  .qs-row[data-qs-tabletView = "m"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-tabletView = "m"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+    width: 50%;
+    margin: 0;
+  }
+
+  .qs-row[data-qs-tabletView = "m"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) {
+    margin: 0;
+  }
+
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+    clear: left;
+  }
+
+  .qs-row[data-qs-tabletView = "m"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+    clear: none;
+  }
+
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(5),
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(6),
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column {
+    width: calc(100% / 3);
+  }
+
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1) {
+    clear: left;
+  }
+
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(7),
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(8),
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+    width: 25%;
+  }
+
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+  .qs-row[data-qs-tabletView = "m"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+    clear: left;
+  }
+
+}
+
+/* S */
+@media (max-width: 720px) {
+
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(2),
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column  {
+    width: 100%;
+  }
+
+  .qs-row[data-qs-tabletView = "s"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) {
+    width: 100%;
+  }
+
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(4),
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+  .qs-row[data-qs-tabletView = "s"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-tabletView = "s"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+  .qs-row[data-qs-tabletView = "s"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-tabletView = "s"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+    width: 50%;
+    margin: 0;
+  }
+
+  .qs-row[data-qs-tabletView = "s"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) {
+    margin: 0;
+  }
+
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+    clear: left;
+  }
+
+  .qs-row[data-qs-tabletView = "s"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+    clear: none;
+  }
+
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(5),
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(6),
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column {
+    width: calc(100% / 3);
+  }
+
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1) {
+    clear: left;
+  }
+
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(7),
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(8),
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+    width: 25%;
+  }
+
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+  .qs-row[data-qs-tabletView = "s"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+    clear: left;
+  }
+
+}
+
+/* XS */
+@media (max-width: 480px) {
+
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(2),
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(2) ~ .qs-column  {
+    width: 100%;
+  }
+
+  .qs-row[data-qs-tabletView = "xs"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) {
+    width: 100%;
+  }
+
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(3),
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(4),
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column,
+
+  .qs-row[data-qs-tabletView = "xs"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-tabletView = "xs"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3),
+
+  .qs-row[data-qs-tabletView = "xs"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(2),
+  .qs-row[data-qs-tabletView = "xs"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) ~ .qs-column:nth-child(3) {
+    width: 50%;
+    margin: 0;
+  }
+
+  .qs-row[data-qs-tabletView = "xs"][data-qs-primary = "true"][data-qs-reverse = "true"] > .qs-column:first-child:nth-last-child(3) {
+    margin: 0;
+  }
+
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+    clear: left;
+  }
+
+  .qs-row[data-qs-tabletView = "xs"][data-qs-primary = "true"] > .qs-column:first-child:nth-last-child(4) ~ .qs-column:nth-child(2n + 1) {
+    clear: none;
+  }
+
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(5),
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(6),
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column {
+    width: calc(100% / 3);
+  }
+
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(5) ~ .qs-column:nth-child(3n + 1),
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(6) ~ .qs-column:nth-child(3n + 1) {
+    clear: left;
+  }
+
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(7),
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column,
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(8),
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column {
+    width: 25%;
+  }
+
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(7) ~ .qs-column:nth-child(4n + 1),
+  .qs-row[data-qs-tabletView = "xs"] > .qs-column:first-child:nth-last-child(8) ~ .qs-column:nth-child(4n + 1) {
+    clear: left;
+  }
+
+}
